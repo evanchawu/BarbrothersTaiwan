@@ -1,0 +1,36 @@
+
+	<%= render 'header' %>
+
+<!-- <div class="video">
+	<video autoplay loop poster="/assets/BarBrothers.jpg" id="bgvid" >
+		<source src="chris.webm" type="video/webm">
+		<source src="barbrothers.mp4" type="video/mp4">
+	</video>
+</div>
+
+
+
+ -->
+
+<video autoplay  poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+<source src="chris.webm" type="video/webm">
+<source src="barbrothers.mp4" type="video/mp4">
+</video>
+
+<div class="img-responsive" alt="Responsive image"
+	width: 100%; height: auto; >
+	<%= image_tag("home_pic.png")	 %>
+</div>
+
+<div id="polina">
+<h1>BarBrothers Taiwan</h1>
+<p>Founded by Kevin 2014
+<!-- <a href="">original article</a> -->
+<p>BAR BROTHERS is a calisthenic workout team that performs creative body weight exercises to obtain strength! These types of workouts are efficient, fun, and the cheapest way to get a great body! </p>
+<p>Our goal is to MOTIVATE you to get in shape and help you reach your life goals! Join our worldwide movement, choose a healthy lifestyle, and let us build your fundamentals to greatness!</p>
+<p>Join our worldwide Family today! More Info and Workouts!</p>
+<button>Pause</button>
+</div>
+
+	<%= render 'footer' %>
