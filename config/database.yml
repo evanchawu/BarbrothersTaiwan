@@ -23,9 +23,6 @@
 #   <<: *default
 #   database: db/test.sqlite3
 
-
-
-
 # 以下自己新增的
 development:
   adapter: postgresql
