@@ -1,6 +1,6 @@
 class BrosController < ApplicationController
   def about
-	
+		
   end
   def home
   	
@@ -9,5 +9,7 @@ class BrosController < ApplicationController
   def motivation
 	
   end
+
+
 end
 
