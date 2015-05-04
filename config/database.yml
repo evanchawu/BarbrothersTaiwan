@@ -4,10 +4,10 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 #
-default: &default
-  adapter: sqlite3
-  pool: 5
-  timeout: 5000
+# default: &default
+#   adapter: sqlite3
+#   pool: 5
+#   timeout: 5000
 
 # 這是預設的
 # development:
@@ -41,6 +41,10 @@ test:
   pool: 5
   host: localhost
 
-
+production:
+   adapter: postgresql
+   encoding: unicode
+   database: barbrothers_taiwan_dev
+   pool: 5
 
 
