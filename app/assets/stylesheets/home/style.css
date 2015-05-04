@@ -14,10 +14,6 @@ img {
 	width: 100%;
 }
 
-#header, #footer {
-	background-color: white;
-}
-
 #header > .wrapper, #footer > .wrapper, #content > .wrapper {
 	width: 1200px;
 	margin: 0 auto;
@@ -231,24 +227,7 @@ html, body {
 	width: 16%;
 }
 
-/*following two are created afterward
-#footer a 
-#footer a:hover*/
 
-#footer a {
-	color: black;
-	text-decoration: none;
-	font-weight: bold;
-    -webkit-transition: linear .2s all;
-    -moz-transition: linear .2s all;
-    -ms-transition: linear .2s all;
-    -o-transition: linear .2s all;
-    transition: linear .2s all;
-}
-
-#footer a:hover {
-    color: #159588;
-}
 
 
 #footer ul {
