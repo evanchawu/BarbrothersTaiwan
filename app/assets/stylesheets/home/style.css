@@ -5,9 +5,6 @@ img {
 }
 
 
-
-
-
 /* Layout */
 
 #header, #footer, #content {
@@ -26,6 +23,11 @@ img {
 
 html, body {
     height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #3C3C3C; 
 }
 
 #loading-mask {
@@ -118,6 +120,8 @@ html, body {
 #navigation a {
 	color: black;
 	text-decoration: none;
+  padding: .3.9rem .4rem .3.9rem .4rem;
+  transition: .6s background; 
     -webkit-transition: linear .2s all;
     -moz-transition: linear .2s all;
     -ms-transition: linear .2s all;
@@ -127,6 +131,7 @@ html, body {
 
 #navigation a:hover {
     color: #159588;
+    background:rgba(0,0,0,0.9);
 }
 
 
@@ -196,9 +201,6 @@ html, body {
 
 
 
-
-
-
 /* Footer */
 
 #footer {
@@ -240,7 +242,23 @@ html, body {
 	list-style-type: none;
 }
 
-
+/*跟navigation 的a一樣*/
+#footer a {
+	color: black;
+	text-decoration: none;
+	padding: .3.9rem;
+  transition: .6s background; 
+    -webkit-transition: linear .2s all;
+    -moz-transition: linear .2s all;
+    -ms-transition: linear .2s all;
+    -o-transition: linear .2s all;
+    transition: linear .2s all;
+}
+/*跟navigation 的a一樣*/
+#footer a:hover {
+    color: #159588;
+    background:rgba(0,0,0,0.9);    
+}
 
 
 

@@ -6,11 +6,8 @@
 	background: url(polina.jpg) no-repeat;
 	background-size: cover;
 }*/
+  
 
-body {
-  margin: 0;
-  background: #000; 
-}
 video { 
   position: fixed;
   right: 0;
@@ -59,10 +56,11 @@ h1 {
   transition: .3s background;
 }
 #polina button:hover { 
-   background: rgba(0,0,0,0.5);
+   background: #159588;
 }
 
-a {
+/*如果有要在透明introduce 加連結
+#polina a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
@@ -70,9 +68,10 @@ a {
   padding: .5rem;
   transition: .6s background; 
 }
-a:hover{
+#polina a:hover{
   background:rgba(0,0,0,0.9);
-}
+}*/
+
 @media screen and (max-width: 500px) { 
   div{width:70%;} 
 }
