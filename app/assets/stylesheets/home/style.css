@@ -168,7 +168,7 @@ body {
 	
 	text-decoration: none;
 	color: black;
-	background-color: #d0d0d0;
+	background-color: #159588;
     -webkit-transition: linear .2s all;
     -moz-transition: linear .2s all;
     -ms-transition: linear .2s all;
@@ -177,20 +177,27 @@ body {
 }
 
 .work a:hover {
-	color: white;
-	background-color: #159588;
+	color: #159588;
+	background-color: black;
     /*opacity: 1;*/
 }
-
 .work.half-width {
 	width: 49.5%;
 }
 
-.work.one-third-width {
-	width: 32.6%;
+.work.half-width.left {
+	margin-right: 1%;
 }
 
-.work.half-width.left {
+.work.two-third-width {
+	width: 66%;
+}
+
+.work.one-third-width {
+	width: 33%;
+}
+
+.work.two-third-width.left {
 	margin-right: 1%;
 }
 
@@ -198,22 +205,47 @@ body {
 	margin-right: 1%;
 }
 
-.work.one-third-width.middle {
+.work.three-one-third-width {
+	width: 32.6%;
+}
+
+.work.three-one-third-width.left {
 	margin-right: 1%;
 }
 
+.work.three-one-third-width.middle {
+	margin-right: 1%;
+}
+
+
 .work .caption {
+
 	padding: 1.25em;
+}
+
+.caption {
+	text-align:center;
 }
 
 .caption .title {
 	margin-top: 0;
 	margin-bottom: .8em;
+
 }
 
+.caption .subtitle  {
 
+	font-size: 1.3em;
+	font-weight:600;
+}
 
+.caption .subtitle  { /*垂直置中*/
+	padding-top: 110px;
+}
 
+.caption .subtitle .big { /*垂直置中*/
+	padding-top: 220px;
+}
 
 
 /* Footer */
