@@ -156,7 +156,7 @@ body {
 }
 
 .work a {
-	opacity: 0;
+	/*opacity: 0;*/
 	
 	display: inline-block;
 	position: absolute;
@@ -164,10 +164,11 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #159588;
+	/*background-color: #159588;*/
 	
 	text-decoration: none;
-	color: white;
+	color: black;
+	background-color: #d0d0d0;
     -webkit-transition: linear .2s all;
     -moz-transition: linear .2s all;
     -ms-transition: linear .2s all;
@@ -176,14 +177,28 @@ body {
 }
 
 .work a:hover {
-    opacity: 1;
+	color: white;
+	background-color: #159588;
+    /*opacity: 1;*/
 }
 
 .work.half-width {
 	width: 49.5%;
 }
 
+.work.one-third-width {
+	width: 32.6%;
+}
+
 .work.half-width.left {
+	margin-right: 1%;
+}
+
+.work.one-third-width.left {
+	margin-right: 1%;
+}
+
+.work.one-third-width.middle {
 	margin-right: 1%;
 }
 
