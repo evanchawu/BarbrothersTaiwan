@@ -118,7 +118,7 @@ body {
 }
 
 #navigation a {
-	color: black;
+	color: #159588;
 	text-decoration: none;
   padding: .3.9rem .4rem .3.9rem .4rem;
   transition: .6s background; 
@@ -234,17 +234,17 @@ body {
 }
 
 .caption .subtitle  {
-
+	
 	font-size: 1.3em;
 	font-weight:600;
 }
 
 .caption .subtitle  { /*垂直置中*/
-	padding-top: 110px;
+	padding-top: 135px;
 }
 
-.caption .subtitle .big { /*垂直置中*/
-	padding-top: 220px;
+.caption .subtitle.big { /*垂直置中*/
+	padding-top: 200px;
 }
 
 
